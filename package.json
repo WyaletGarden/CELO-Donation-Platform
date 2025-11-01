@@ -1,0 +1,33 @@
+{
+  "name": "donation-campaign-dapp",
+  "version": "1.0.0",
+  "description": "Donation Campaign DApp on Celo Blockchain",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:celoSepolia": "hardhat run scripts/deploy.js --network celoSepolia",
+    "deploy:alfajores": "hardhat run scripts/deploy.js --network alfajores",
+    "deploy:local": "hardhat run scripts/deploy.js --network hardhat",
+    "verify": "hardhat verify --network celoSepolia",
+    "copy-abi": "node scripts/copy-abi.js"
+  },
+  "keywords": [
+    "celo",
+    "blockchain",
+    "donation",
+    "crowdfunding",
+    "smart-contracts"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "hardhat": "^2.22.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.4.5"
+  }
+}
