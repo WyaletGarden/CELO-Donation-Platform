@@ -6,13 +6,11 @@
 
 ## 👤 Who Are You
 
-- **Name:** [Your Name]
-- **Role:** Blockchain Developer & Smart Contract Engineer
+- **Name:** Accelerator
+- **Role:** Blockchain Intern
 - **Expertise:** Solidity, Foundry, React, Celo Development
 - **Passion:** Building decentralized solutions that create real-world impact
-- **Background:** [Your Background]
-- **Location:** [Your Location]
-- **Contact:** [Your Contact Information]
+- **Contact:** NULL
 
 ---
 
